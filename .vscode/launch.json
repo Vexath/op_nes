@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'opNES'",
+            "name": "Debug executable 'op_nes'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=opNES",
-                    "--package=opNES"
+                    "--bin=op_nes",
+                    "--package=op_nes"
                 ],
                 "filter": {
-                    "name": "opNES",
+                    "name": "op_nes",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'opNES'",
+            "name": "Debug unit tests in executable 'op_nes'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=opNES",
-                    "--package=opNES"
+                    "--bin=op_nes",
+                    "--package=op_nes"
                 ],
                 "filter": {
-                    "name": "opNES",
+                    "name": "op_nes",
                     "kind": "bin"
                 }
             },
